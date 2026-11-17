@@ -12,7 +12,7 @@ def generate_launch_description():
     return LaunchDescription([
         Node(
             package='ros2_mix_pkg',
-            executable='example_pkg_node',
+            executable='example_pkg_node.py',
             name='example_pkg_node',
             output='screen',
             emulate_tty=True,
